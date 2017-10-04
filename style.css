@@ -1,0 +1,151 @@
+body {
+    background-color: antiquewhite;
+    margin-top: 100px;
+}
+
+img {
+    height: 250px;
+    width: 130px;
+}
+
+.shakecss {
+    animation: shakeit 0.1s infinite;
+}
+
+@keyframes shakeit {
+    25% {
+        transform: translateX(-10px);
+    }
+    75% {
+        transform: translateX(10px);
+    }
+}
+
+.jumpcss {
+    animation: jumpnow 1s ease infinite;
+}
+
+@keyframes jumpnow {
+    25% {
+        transform: translateY(-70px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+}
+
+.onecss {
+    animation: onejumpnow 1s ease;
+}
+
+@keyframes onejumpnow {
+    25% {
+        transform: translateY(-70px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+}
+
+.movecss {
+    animation: moveit 7s linear infinite;
+}
+
+@keyframes moveit {
+    0% {
+        transform: translateX(-30vw);
+    }
+    25% {
+        transform: translateX(100vw);
+    }
+}
+
+.miscarecss {
+    animation: miscareacum 3s ease infinite;
+}
+
+@keyframes miscareacum {
+    0% {
+        transform: translateX(-30vw);
+    }
+    25% {
+        transform: translateX( 30vw)
+    }
+    100% {
+        transform: translateX( 30vw)
+    }
+}
+
+.mfromcss {
+    animation: mfromhere 5s linear infinite;
+}
+
+@keyframes mfromhere {
+    0% {
+        transform: translateX(30vw);
+    }
+    25% {
+        transform: translateX( 300vw)
+    }
+    100% {
+        transform: translateX( 300vw)
+    }
+}
+
+
+
+.fadecss{
+    animation: fadeda 1s linear infinite;
+  
+
+}
+@keyframes fadeda{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.glowcss{
+    animation: glowow 2s  linear infinite;
+      filter: drop-shadow(15px 5px 25px );
+}
+
+.downcss{
+    animation: down1 5s ease infinite;
+    
+}
+@keyframes down1
+{
+    0%{transform: translateY(0)}
+    25%{transform: translateY(100vh)}
+    100%{transform: translateY(100vh)}
+}
+
+
+.mirrorcss{
+    animation: mirror11 1s ease infinite;
+    
+}
+@keyframes mirror11 
+{
+    from{
+        transform: scaleX(1);
+    }
+    to{
+        transform: scaleX(-1);
+    }
+}
+
+button{color: antiquewhite;
+    background-color: black;
+   font-size: 20px;
+}
+
+
+
